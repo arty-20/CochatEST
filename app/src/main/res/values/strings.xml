@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CochatEST</string>
+    <string name="pregunta_uno">Pregunta 1</string>
+    <string name="boton_verdad">Verdad</string>
+    <string name="boton_falso">Falso</string>
+    <string name="boton_anterior">Anterior</string>
+    <string name="boton_siguiente">Siguiente</string>
+</resources>
