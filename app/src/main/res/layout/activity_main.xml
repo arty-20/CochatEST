@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/pregunta_text_view"
+            android:id="@+id/texto_pre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="24dp"
@@ -28,16 +27,29 @@
                 android:layout_height="wrap_content"
                 android:text="@string/boton_verdad"
                 android:textColor="@color/colorVerde"
-                android:textAllCaps="false" />
+                android:textAllCaps="false"
+                tools:ignore="ButtonStyle" />
             <Button
                 android:id="@+id/falso_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/boton_falso"
                 android:textColor="@color/colorRojo"
-                android:textAllCaps="false" />
+                android:textAllCaps="false"
+                tools:ignore="ButtonStyle" />
         </LinearLayout>
 
+        <Button
+            android:id="@+id/siguiente"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_siguiente" />
+
+        <Button
+            android:id="@+id/anterior"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:text="@string/boton_anterior" />
 
 
     </LinearLayout>
